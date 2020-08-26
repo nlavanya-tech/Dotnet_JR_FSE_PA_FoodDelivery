@@ -1,0 +1,40 @@
+﻿@model IEnumerable<FoodDeliveryMvcApp.Entities.Restorents>
+
+@{
+    ViewData["Title"] = "Admin";
+}
+<div class="text-center">
+    <h1 class="display-4">Please order food in Your Favorite Restorent</h1>
+</div>
+<div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+    <ul class="navbar-nav flex-grow-1">
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="AddRestorents">AddRestorents</a>
+        </li>
+    </ul>
+</div>
+<table class="table">
+    <tr>
+        <th>RestorentName</th>
+        <th>Address</th>
+        <th>review</th>
+        <th>OrderFood</th>
+    </tr>
+    @foreach (var list in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelitem => list.RestorentName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelitem => list.address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelitem => list.reviews)
+            </td>
+            <td>
+                <a asp-area="" asp-controller="FoodItem" asp-action="OrderFood">OrderFood</a>
+            </td>
+        </tr>
+    }
+</table>

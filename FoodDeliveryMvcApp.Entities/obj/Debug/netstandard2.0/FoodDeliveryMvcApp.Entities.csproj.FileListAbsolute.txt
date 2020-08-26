@@ -1,0 +1,7 @@
+I:\IIHT\FoodDeliveryApp\project\Dotnet_JR_FSE_PA_FoodDelivery\FoodDeliveryMvcApp.Entities\bin\Debug\netstandard2.0\FoodDeliveryMvcApp.Entities.deps.json
+I:\IIHT\FoodDeliveryApp\project\Dotnet_JR_FSE_PA_FoodDelivery\FoodDeliveryMvcApp.Entities\bin\Debug\netstandard2.0\FoodDeliveryMvcApp.Entities.dll
+I:\IIHT\FoodDeliveryApp\project\Dotnet_JR_FSE_PA_FoodDelivery\FoodDeliveryMvcApp.Entities\bin\Debug\netstandard2.0\FoodDeliveryMvcApp.Entities.pdb
+I:\IIHT\FoodDeliveryApp\project\Dotnet_JR_FSE_PA_FoodDelivery\FoodDeliveryMvcApp.Entities\obj\Debug\netstandard2.0\FoodDeliveryMvcApp.Entities.AssemblyInfoInputs.cache
+I:\IIHT\FoodDeliveryApp\project\Dotnet_JR_FSE_PA_FoodDelivery\FoodDeliveryMvcApp.Entities\obj\Debug\netstandard2.0\FoodDeliveryMvcApp.Entities.AssemblyInfo.cs
+I:\IIHT\FoodDeliveryApp\project\Dotnet_JR_FSE_PA_FoodDelivery\FoodDeliveryMvcApp.Entities\obj\Debug\netstandard2.0\FoodDeliveryMvcApp.Entities.dll
+I:\IIHT\FoodDeliveryApp\project\Dotnet_JR_FSE_PA_FoodDelivery\FoodDeliveryMvcApp.Entities\obj\Debug\netstandard2.0\FoodDeliveryMvcApp.Entities.pdb

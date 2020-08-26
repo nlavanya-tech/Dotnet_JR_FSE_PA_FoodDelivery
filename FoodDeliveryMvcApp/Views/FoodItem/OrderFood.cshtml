@@ -1,0 +1,45 @@
+﻿@model FoodDeliveryMvcApp.Entities.FoodIteam
+
+@{
+    ViewData["Title"] = "OrderFood";
+}
+
+<h1>OrderFood</h1>
+
+<h4>FoodIteam</h4>
+<hr />
+@using (Html.BeginForm("OrderFood", "FoodItem", FormMethod.Post))
+{
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="OrderFood">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="FoodItem" class="control-label"></label>
+                    <input asp-for="FoodItem" class="form-control" />
+                    <span asp-validation-for="FoodItem" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Cost" class="control-label"></label>
+                    <input asp-for="Cost" class="form-control" />
+                    <span asp-validation-for="Cost" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Address" class="control-label"></label>
+                    <input asp-for="Address" class="form-control" />
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="RestorentName" class="control-label"></label>
+                    <input asp-for="RestorentName" class="form-control" />
+                    <span asp-validation-for="RestorentName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="PlaceOrder" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+}
+ 
+

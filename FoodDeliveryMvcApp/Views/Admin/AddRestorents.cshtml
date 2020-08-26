@@ -1,0 +1,40 @@
+﻿@model FoodDeliveryMvcApp.Entities.Restorents
+
+@{
+    ViewData["Title"] = "AddRestorents";
+}
+
+<h1>AddRestorents</h1>
+
+<h4>Restorents</h4>
+<hr />
+@using (Html.BeginForm("AddRestorents", "Admin", FormMethod.Post))
+{
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="AddRestorents">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="RestorentName" class="control-label"></label>
+                    <input asp-for="RestorentName" class="form-control" />
+                    <span asp-validation-for="RestorentName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="address" class="control-label"></label>
+                    <input asp-for="address" class="form-control" />
+                    <span asp-validation-for="address" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="reviews" class="control-label"></label>
+                    <input asp-for="reviews" class="form-control" />
+                    <span asp-validation-for="reviews" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Add" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+}
+
+
