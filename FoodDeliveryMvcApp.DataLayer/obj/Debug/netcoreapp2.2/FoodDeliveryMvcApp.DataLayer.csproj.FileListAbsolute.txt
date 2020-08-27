@@ -1,0 +1,11 @@
+I:\IIHT\FoodDeliveryApp\project\Dotnet_JR_FSE_PA_FoodDelivery\FoodDeliveryMvcApp.DataLayer\bin\Debug\netcoreapp2.2\FoodDeliveryMvcApp.DataLayer.deps.json
+I:\IIHT\FoodDeliveryApp\project\Dotnet_JR_FSE_PA_FoodDelivery\FoodDeliveryMvcApp.DataLayer\bin\Debug\netcoreapp2.2\FoodDeliveryMvcApp.DataLayer.dll
+I:\IIHT\FoodDeliveryApp\project\Dotnet_JR_FSE_PA_FoodDelivery\FoodDeliveryMvcApp.DataLayer\bin\Debug\netcoreapp2.2\FoodDeliveryMvcApp.DataLayer.pdb
+I:\IIHT\FoodDeliveryApp\project\Dotnet_JR_FSE_PA_FoodDelivery\FoodDeliveryMvcApp.DataLayer\bin\Debug\netcoreapp2.2\FoodDeliveryMvcApp.Entities.dll
+I:\IIHT\FoodDeliveryApp\project\Dotnet_JR_FSE_PA_FoodDelivery\FoodDeliveryMvcApp.DataLayer\bin\Debug\netcoreapp2.2\FoodDeliveryMvcApp.Entities.pdb
+I:\IIHT\FoodDeliveryApp\project\Dotnet_JR_FSE_PA_FoodDelivery\FoodDeliveryMvcApp.DataLayer\obj\Debug\netcoreapp2.2\FoodDeliveryMvcApp.DataLayer.csprojAssemblyReference.cache
+I:\IIHT\FoodDeliveryApp\project\Dotnet_JR_FSE_PA_FoodDelivery\FoodDeliveryMvcApp.DataLayer\obj\Debug\netcoreapp2.2\FoodDeliveryMvcApp.DataLayer.AssemblyInfoInputs.cache
+I:\IIHT\FoodDeliveryApp\project\Dotnet_JR_FSE_PA_FoodDelivery\FoodDeliveryMvcApp.DataLayer\obj\Debug\netcoreapp2.2\FoodDeliveryMvcApp.DataLayer.AssemblyInfo.cs
+I:\IIHT\FoodDeliveryApp\project\Dotnet_JR_FSE_PA_FoodDelivery\FoodDeliveryMvcApp.DataLayer\obj\Debug\netcoreapp2.2\FoodDeliveryMvcApp.DataLayer.csproj.CopyComplete
+I:\IIHT\FoodDeliveryApp\project\Dotnet_JR_FSE_PA_FoodDelivery\FoodDeliveryMvcApp.DataLayer\obj\Debug\netcoreapp2.2\FoodDeliveryMvcApp.DataLayer.dll
+I:\IIHT\FoodDeliveryApp\project\Dotnet_JR_FSE_PA_FoodDelivery\FoodDeliveryMvcApp.DataLayer\obj\Debug\netcoreapp2.2\FoodDeliveryMvcApp.DataLayer.pdb

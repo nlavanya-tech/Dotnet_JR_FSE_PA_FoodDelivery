@@ -21,14 +21,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netcoreapp2.2": {
             "projectReferences": {
               "I:\\IIHT\\FoodDeliveryApp\\project\\Dotnet_JR_FSE_PA_FoodDelivery\\FoodDeliveryMvcApp.DataLayer\\FoodDeliveryMvcApp.DataLayer.csproj": {
                 "projectPath": "I:\\IIHT\\FoodDeliveryApp\\project\\Dotnet_JR_FSE_PA_FoodDelivery\\FoodDeliveryMvcApp.DataLayer\\FoodDeliveryMvcApp.DataLayer.csproj"
@@ -46,16 +46,16 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netcoreapp2.2": {
           "dependencies": {
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[2.2.0, )"
             },
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.0.3, )",
+              "version": "[2.2.0, )",
               "autoReferenced": true
             }
           },
@@ -90,14 +90,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netcoreapp2.2": {
             "projectReferences": {
               "I:\\IIHT\\FoodDeliveryApp\\project\\Dotnet_JR_FSE_PA_FoodDelivery\\FoodDeliveryMvcApp.Entities\\FoodDeliveryMvcApp.Entities.csproj": {
                 "projectPath": "I:\\IIHT\\FoodDeliveryApp\\project\\Dotnet_JR_FSE_PA_FoodDelivery\\FoodDeliveryMvcApp.Entities\\FoodDeliveryMvcApp.Entities.csproj"
@@ -112,16 +112,16 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netcoreapp2.2": {
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[2.2.0, )"
             },
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.0.3, )",
+              "version": "[2.2.0, )",
               "autoReferenced": true
             }
           },
@@ -156,14 +156,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netcoreapp2.2": {
             "projectReferences": {}
           }
         },
@@ -174,12 +174,12 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netcoreapp2.2": {
           "dependencies": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.0.3, )",
+              "version": "[2.2.0, )",
               "autoReferenced": true
             },
             "System.ComponentModel.Annotations": {
@@ -218,14 +218,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "netcoreapp2.2": {
             "projectReferences": {
               "I:\\IIHT\\FoodDeliveryApp\\project\\Dotnet_JR_FSE_PA_FoodDelivery\\FoodDeliveryMvcApp.BusinessLayer\\FoodDeliveryMvcApp.BusinessLayer.csproj": {
                 "projectPath": "I:\\IIHT\\FoodDeliveryApp\\project\\Dotnet_JR_FSE_PA_FoodDelivery\\FoodDeliveryMvcApp.BusinessLayer\\FoodDeliveryMvcApp.BusinessLayer.csproj"
@@ -243,11 +243,17 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "netcoreapp2.2": {
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
             },
             "Moq": {
               "target": "Package",
@@ -276,11 +282,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
